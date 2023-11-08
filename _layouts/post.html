@@ -12,3 +12,12 @@ layout: default
     <noscript>Please enable JavaScript to view comments.</noscript>
   {% endif %}
 </article>
+
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&nbsp;&nbsp;&laquo; Previous</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">Next &raquo;&nbsp;&nbsp;</a>
+  {% endif %}
+</div>

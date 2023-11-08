@@ -1,10 +1,12 @@
 title: "Praveen Yerneni"
 author: "Praveen Yerneni"
 description: "Musings of a Tech Philosopher"
-permalink: /:title/
+permalink: /:year/:month/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
+paginate: 2
+paginate_path: "/blog/page:num/"
 
 # Layout
 
@@ -12,6 +14,7 @@ show_excerpts: true        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
+#show_related: true         # show the previous and next links
 
 # Menu
 
@@ -21,7 +24,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "about.html"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:praveeny@live.in"}
+  - {title: Mail, icon: envelope, url: "mailto:yernenip@outlook.com"}
   - {title: Github, icon: github, url: "https://github.com/yernenip"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/praveen-yerneni/"}
   - {title: Medium, icon: medium, url: "https://medium.com/@yernenip"}
@@ -34,3 +37,4 @@ comments:
 
 plugins:
  - jekyll-feed
+ - jekyll-paginate
