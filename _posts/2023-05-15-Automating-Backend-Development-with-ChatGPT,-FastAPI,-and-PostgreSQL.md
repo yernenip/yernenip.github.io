@@ -95,8 +95,8 @@ Your task is to create REST API's using FastAPI and pydantic based on the
 steps provided in the text delimited by three stars
 Here are some instructions to consider while generating code.
 1. Generate the models in a separate file called 'models.py'
-2. Assume we already have a 'db.py' file which contains the methods open_pool, close_pool and exec_query(query, params).   
-This file is already created and you do not need to create this file.
+2. Assume we already have a 'db.py' file which contains the methods open_pool, close_pool and  
+exec_query(query, params).This file is already created and you do not need to create this file.
 3. Ensure to open pool in startup and close the pool in shutdown of FastAPI.
 4. Add Exception handling, especially for relevant HTTP Exceptions.
 5. Restrict the query to one query using SQL JOINS instead of multiple queries.
