@@ -29,7 +29,7 @@ This website wouldn't be possible without the contributions and open-source effo
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
