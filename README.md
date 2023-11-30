@@ -19,3 +19,20 @@ This website is built using Jekyll, a Ruby-based static website generator. It is
 - **HTML/CSS**: Customizations and styling.
 - **Markdown**: Writing blogs and content.
 
+
+## Acknowledgments
+
+This website wouldn't be possible without the contributions and open-source efforts from:
+
+- [Contrast Repository](https://github.com/niklasbuschmann/contrast)
+- [Minima Theme](https://github.com/jekyll/minima)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+---
+
+Feel free to explore the code, check out my blogs, and reach out to me for any inquiries or collaborations!
+
+
