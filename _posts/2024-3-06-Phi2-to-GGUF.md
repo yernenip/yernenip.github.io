@@ -226,15 +226,15 @@ And that’s all folks! Thank you for taking time to read this article.
 
 # Resources
 
-https://github.com/ggerganov/llama.cpp  
+<https://github.com/ggerganov/llama.cpp>
 
-https://towardsdatascience.com/quantize-llama-models-with-ggml-and-llama-cpp-3612dfbcc172  
+<https://towardsdatascience.com/quantize-llama-models-with-ggml-and-llama-cpp-3612dfbcc172>
 
-https://python.langchain.com/docs/integrations/llms/llamacpp  
+<https://python.langchain.com/docs/integrations/llms/llamacpp>
 
-https://huggingface.co/docs/trl/main/en/use_model  
+<https://huggingface.co/docs/trl/main/en/use_model>
 
-https://huggingface.co/docs/huggingface_hub/v0.21.4/guides/download  
+<https://huggingface.co/docs/huggingface_hub/v0.21.4/guides/download>
 
 
 
